@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../assets/css/header.css">
     <link rel="stylesheet" href="../../assets/css/footer.css">
     <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
 </head>
 <body>
     <header class="header">
@@ -43,13 +44,80 @@
             </ul>
 
             <div class="header__language-switcher">
-              <a href="./homepage-vi.html" class="header__language-link active">VI</a>
-              <a href="./homepage-en.html" class="header__language-link">EN</a>
+              <a href="./homepage-vi.html" class="header__language-link">VI</a>
+              <a href="./homepage-en.html" class="header__language-link active">EN</a>
             </div>
         </nav>
     </header>
 
-    <h1> MAIN </h1>
+    <section class="hero">
+        <video
+          src="../../assets/videos/mv-pc.mp4"
+          autoplay
+          muted
+          playsinline
+          loop
+          preload="auto"
+          class="hero__video"
+        ></video>
+    </section>
+
+    <div class="elementor-section-wrap">
+        <section class="business">
+        <div class="business__container">
+            <h2 class="business__title">Our Business</h2>
+            <div class="business__content">
+            <div class="business__overlay"></div>
+                <div class="business__description">
+                    <div class="business__text">
+                        <p>
+                            As a Digital Creative Studio, Sun* always prioritizes the spirit of owning the products,
+                            thinking creatively in any project to bring the most <strong>"Awesome"</strong> experience
+                            to end-users.
+                        </p>
+                        <p>
+                            With two service lines, namely <strong>"Creative &amp; Engineering"</strong> and
+                            <strong>"Talent Platform"</strong>, Sun* has always been step by step with technology
+                            creating great value for society.
+                        </p>
+                    </div>
+                    <div class="business__image">
+                        <img src="../../assets/images/intro-business.png" alt="Digital Creative Studio Illustration" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section class="services">
+            <div class="service service--red">
+                <div class="service__circle service__circle--top-right"></div>
+                <div class="service__header">
+                <div class="service__circle service__circle--red service__circle--top-left"></div>
+                <span class="service__tag">Digital Creative Studio</span>
+                </div>
+                <div class="service__title">Creative<br />&amp; Engineering</div>
+                <div class="service__description">
+                    Abundant human resource specializing in technology, design, and business.
+                </div>
+                <button class="service__button service__button--red">See more →</button>
+            </div>
+
+            <div class="service service--white">
+                <div class="service__header">
+                <div class="service__circle service__circle--white service__circle--top-left"></div>
+                <span class="service__tag service__tag--light">Digital Creative Studio</span>
+                </div>
+                <div class="service__title">Talent<br />Platform</div>
+                <div class="service__description">
+                    Human resource solutions to support sustainable business growth.
+                </div>
+                <button class="service__button service__button--dark">See more →</button>
+                <div class="service__circle service__circle--right"></div>
+                <div class="service__circle service__circle--bottom-right"></div>
+            </div>
+        </section>
+    </div>
 
     <footer class="footer">
         <div class="footer__content">
