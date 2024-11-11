@@ -1,0 +1,165 @@
+
+@media (max-width: 768px) {
+  .elementor-section-wrap {
+    padding: 20px 0;
+  }
+
+  .elementor-section-wrap > section {
+    border-radius: 0;
+    margin: 0;
+    max-width: 100%;
+    padding: 15px;
+    margin-bottom: 70px;
+  }
+
+  /* Hero Section */
+  .hero {
+    height: 300px;
+  }
+
+  /* Business Section */
+  .business__title {
+    font-size: 30px;
+    text-align: left;
+  }
+
+  .business__content {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .business__description {
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 20px;
+  }
+
+  .business__image {
+    margin-top: 20px;
+    position: static;
+    width: 100%;
+  }
+
+  /* Services Section */
+  .services {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .service {
+    max-width: 100%;
+    min-width: 0;
+    padding: 30px;
+    width: 100%;
+  }
+
+  .service__title {
+    font-size: 30px;
+  }
+
+  .service__button {
+    font-size: 18px;
+    height: 60px;
+  }
+
+  /* Circle Decorations for Mobile */
+  .service__circle--top-left {
+    height: 40px;
+    left: 4%;
+    top: 6%;
+    width: 40px;
+  }
+
+  .service__circle--top-right {
+    background-color: #d82329;
+    height: 70px;
+    right: 45px;
+    top: -30px;
+    width: 70px;
+  }
+
+  .service__circle--right {
+    height: 35px;
+    right: 25%;
+    top: 100%;
+    width: 35px;
+  }
+
+  .service__circle--bottom-right {
+    bottom: -20%;
+    height: 70px;
+    left: 35%;
+    width: 70px;
+  }
+
+  /* Projects section */
+
+  .project__title h2 {
+    font-size: 28px;
+    text-align: left;
+  }
+
+  .project__content {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .project__data {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+  }
+
+  .project__number {
+    font-size: 60px;
+    margin-right: 0;
+  }
+
+  .project__plus {
+    font-size: 36px;
+  }
+
+  .project__label {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  /* Slideshow */
+  .project__slideshow {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .project__slide img {
+    border-radius: 8px;
+    height: auto;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  /* Buttons */
+  .project__button--dark {
+    font-size: 16px;
+    height: 50px;
+    width: 100%;
+  }
+
+  /* Navigation Arrows */
+  .project__nav-arrow {
+    font-size: 16px;
+    height: 35px;
+    width: 35px;
+  }
+
+  /* Circle */
+  .project__circle--down-right,
+  .project__circle--top-right {
+    display: none;
+  }
+}
